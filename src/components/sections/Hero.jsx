@@ -80,9 +80,10 @@ const Hero = () => {
                 {/*Image Container*/}
                 <div className='relative rounded-2xl overflow-hidden m-[1px] h-[calc(100%-2px)] '>
                   <img
-                    src="/download.jpg" 
+                    src={`${import.meta.env.BASE_URL}download.jpg`}
                     alt="Developer at work"
-                    className='w-full h-full object-cover' />
+                    className='w-full h-full object-cover'
+                  />
                 </div>
 
                 {/*Technologies Logo */}

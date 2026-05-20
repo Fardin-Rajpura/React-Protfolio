@@ -3,11 +3,17 @@ export const PERSONAL_INFO = {
     title: 'Full Stack Developer',
     email: 'fardin.codes94@gmail.com',
     location: 'Surat, Gujarat',
-    tagline: 'I am a passionate full stack developer with expertise in React, Node.js, and MongoDB. I create dynamic and responsive web applications that deliver exceptional user experiences. With a strong foundation in both frontend and backend development, I am dedicated to crafting efficient and scalable solutions that meet the needs of clients and users alike.',
-    resume: '/F S Raj.pdf',
+
+    tagline:
+        'I am a passionate full stack developer with expertise in React, Node.js, and MongoDB. I create dynamic and responsive web applications that deliver exceptional user experiences. With a strong foundation in both frontend and backend development, I am dedicated to crafting efficient and scalable solutions that meet the needs of clients and users alike.',
+
+    resume: `${import.meta.env.BASE_URL}F S Raj.pdf`,
+
     bio: [
         "I'm a passionate React developer with over 3 years of experience building scalable, performant web applications. I specialize in creating intuitive user interfaces that combine beautiful design with exceptional functionality.",
-        " My expertise spans the entire frontend ecosystem, from React and Next.js to TypeScript and modern CSS frameworks. I'm committed to writing clean, maintainable code and staying current with the latest web technologies.",
+
+        "My expertise spans the entire frontend ecosystem, from React and Next.js to TypeScript and modern CSS frameworks. I'm committed to writing clean, maintainable code and staying current with the latest web technologies.",
+
         "When I'm not coding, you'll find me contributing to open-source projects, writing technical articles, or exploring new design trends."
     ]
 };
@@ -31,12 +37,11 @@ export const ABOUT_STATS = [
     { label: 'GitHub Stars', value: '100+' },
 ];
 
-
 export const NAV_LINKS = [
     { id: 'about', label: 'About' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
     { id: 'services', label: 'Services' },
-    { id: 'testimonials', label: 'Testimonials'},
+    { id: 'testimonials', label: 'Testimonials' },
     { id: 'contact', label: 'Contact' },
 ];

@@ -6,7 +6,7 @@ export const projects = [
         description:
             'A modern full stack ecommerce platform with authentication, cart system, and payment integration.',
 
-        image: '/images/projects/project-1.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/project-1.jpg`,
 
         category: 'Full Stack',
 
@@ -27,7 +27,7 @@ export const projects = [
         description:
             'A modern animated developer portfolio built with React and Tailwind CSS.',
 
-        image: '/images/projects/project-2.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/project-2.jpg`,
 
         category: 'Frontend',
 
@@ -48,7 +48,7 @@ export const projects = [
         description:
             'A productivity app for managing daily tasks with authentication and CRUD operations.',
 
-        image: '/images/projects/project-3.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/project-3.jpg`,
 
         category: 'Full Stack',
 
@@ -69,7 +69,7 @@ export const projects = [
         description:
             'A weather application using external APIs and responsive UI design.',
 
-        image: '/images/projects/project-4.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/project-4.jpg`,
 
         category: 'Frontend',
 
@@ -90,7 +90,7 @@ export const projects = [
         description:
             'A scalable backend REST API with JWT authentication and MongoDB database.',
 
-        image: '/images/projects/project-5.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/project-5.jpg`,
 
         category: 'Backend',
 
@@ -111,7 +111,7 @@ export const projects = [
         description:
             'A real-time AI chat application with modern UI and API integration.',
 
-        image: '/images/projects/project-6.jpg',
+        image: `${import.meta.env.BASE_URL}images/projects/project-6.jpg`,
 
         category: 'Full Stack',
 
