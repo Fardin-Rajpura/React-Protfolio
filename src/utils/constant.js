@@ -5,16 +5,16 @@ export const PERSONAL_INFO = {
     location: 'Surat, Gujarat',
 
     tagline:
-        'I am a passionate full stack developer with expertise in React, Node.js, and MongoDB. I create dynamic and responsive web applications that deliver exceptional user experiences. With a strong foundation in both frontend and backend development, I am dedicated to crafting efficient and scalable solutions that meet the needs of clients and users alike.',
+        'I build modern, responsive, and high-performance web applications using React, Node.js, and MongoDB.',
 
     resume: `${import.meta.env.BASE_URL}F S Raj.pdf`,
 
     bio: [
-        "I'm a passionate React developer with over 3 years of experience building scalable, performant web applications. I specialize in creating intuitive user interfaces that combine beautiful design with exceptional functionality.",
+        "I'm a passionate Full Stack Developer from Surat, Gujarat, focused on building modern web applications and responsive user interfaces.",
 
-        "My expertise spans the entire frontend ecosystem, from React and Next.js to TypeScript and modern CSS frameworks. I'm committed to writing clean, maintainable code and staying current with the latest web technologies.",
+        "I specialize in frontend and backend development using React.js, Node.js, Express.js, and MongoDB. I enjoy creating clean, fast, and user-friendly websites that provide real value to users and businesses.",
 
-        "When I'm not coding, you'll find me contributing to open-source projects, writing technical articles, or exploring new design trends."
+        "Currently, I am improving my skills by building real-world projects and exploring modern web technologies.."
     ]
 };
 

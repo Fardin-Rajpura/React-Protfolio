@@ -1,18 +1,19 @@
 export const projects = [
     {
         id: 1,
-        title: 'E-commerce Website',
+
+        title: 'Full Stack E-Commerce Website',
 
         description:
-            'A modern full stack ecommerce platform with authentication, cart system, and payment integration.',
+            'A modern ecommerce web application with product listings, shopping cart, authentication, and responsive user interface.',
 
         image: `${import.meta.env.BASE_URL}images/projects/project-1.jpg`,
 
         category: 'Full Stack',
 
-        technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
+        technologies: ['React', 'Node.js', 'Express.js', 'MongoDB'],
 
-        metrics: '40% increase in conversion',
+        metrics: 'Responsive full stack application',
 
         demoUrl: 'https://example.com/demo1',
 
@@ -22,18 +23,18 @@ export const projects = [
     {
         id: 2,
 
-        title: 'Portfolio Website',
+        title: 'Developer Portfolio Website',
 
         description:
-            'A modern animated developer portfolio built with React and Tailwind CSS.',
+            'A modern and animated personal portfolio website built using React.js and Tailwind CSS.',
 
         image: `${import.meta.env.BASE_URL}images/projects/project-2.jpg`,
 
         category: 'Frontend',
 
-        technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
+        technologies: ['React', 'Tailwind CSS', 'JavaScript'],
 
-        metrics: '95+ Lighthouse score',
+        metrics: 'Modern responsive UI design',
 
         demoUrl: 'https://example.com/demo2',
 
@@ -46,15 +47,15 @@ export const projects = [
         title: 'Task Management App',
 
         description:
-            'A productivity app for managing daily tasks with authentication and CRUD operations.',
+            'A task management web application with authentication, CRUD operations, and clean dashboard interface.',
 
         image: `${import.meta.env.BASE_URL}images/projects/project-3.jpg`,
 
         category: 'Full Stack',
 
-        technologies: ['Next.js', 'MongoDB', 'Node.js'],
+        technologies: ['React', 'Node.js', 'MongoDB'],
 
-        metrics: '30% productivity improvement',
+        metrics: 'Task and productivity management',
 
         demoUrl: 'https://example.com/demo3',
 
@@ -64,10 +65,10 @@ export const projects = [
     {
         id: 4,
 
-        title: 'Weather Dashboard',
+        title: 'Weather App Dashboard',
 
         description:
-            'A weather application using external APIs and responsive UI design.',
+            'A responsive weather dashboard using external APIs to display real-time weather information.',
 
         image: `${import.meta.env.BASE_URL}images/projects/project-4.jpg`,
 
@@ -75,7 +76,7 @@ export const projects = [
 
         technologies: ['React', 'API Integration', 'Tailwind CSS'],
 
-        metrics: 'Real-time weather tracking',
+        metrics: 'Real-time weather updates',
 
         demoUrl: 'https://example.com/demo4',
 
@@ -88,7 +89,7 @@ export const projects = [
         title: 'REST API Backend',
 
         description:
-            'A scalable backend REST API with JWT authentication and MongoDB database.',
+            'A secure backend REST API with JWT authentication, database integration, and scalable server architecture.',
 
         image: `${import.meta.env.BASE_URL}images/projects/project-5.jpg`,
 
@@ -96,7 +97,7 @@ export const projects = [
 
         technologies: ['Node.js', 'Express.js', 'MongoDB'],
 
-        metrics: 'Secure authentication system',
+        metrics: 'Authentication and API system',
 
         demoUrl: 'https://example.com/demo5',
 
@@ -106,10 +107,10 @@ export const projects = [
     {
         id: 6,
 
-        title: 'AI Chat Application',
+        title: 'Chat Application',
 
         description:
-            'A real-time AI chat application with modern UI and API integration.',
+            'A modern real-time chat application with responsive UI and smooth messaging experience.',
 
         image: `${import.meta.env.BASE_URL}images/projects/project-6.jpg`,
 
@@ -117,7 +118,7 @@ export const projects = [
 
         technologies: ['React', 'Node.js', 'Socket.io'],
 
-        metrics: 'Real-time messaging experience',
+        metrics: 'Real-time communication system',
 
         demoUrl: 'https://example.com/demo6',
 

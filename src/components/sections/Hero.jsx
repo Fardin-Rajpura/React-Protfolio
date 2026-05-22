@@ -36,7 +36,7 @@ const Hero = () => {
 
             <FadeIn delay={200}>
               <p className='text-lg text-white/70 max-w-[550px] mb-8 tracking-[0.1px]'>
-                I am a passionate full stack developer with expertise in React, Next.js, Tailwind CSS, Node.js, and MongoDB. I create dynamic and responsive web applications that provide seamless user experiences.
+                I help businesses and startups create fast, scalable, and user-friendly websites with modern technologies and clean UI design.
               </p>
             </FadeIn>
 

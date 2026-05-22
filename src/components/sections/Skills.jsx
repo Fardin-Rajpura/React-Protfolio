@@ -10,19 +10,17 @@ const Skills = () => {
     const skillCategories = {
         'Frontend Development': [
             skills.find((s) => s.name === 'React.js'),
-            skills.find((s) => s.name === 'Next.js'),
             skills.find((s) => s.name === 'JavaScript'),
-            skills.find((s) => s.name === 'HTML/CSS'),
+            skills.find((s) => s.name === 'HTML5'),
+            skills.find((s) => s.name === 'CSS3'),
             skills.find((s) => s.name === 'Tailwind CSS'),
-            skills.find((s) => s.name === 'Redux Toolkit'),
-            skills.find((s) => s.name === 'Framer Motion'),
+            skills.find((s) => s.name === 'Bootstrap'),
         ].filter(Boolean),
 
         'Backend & APIs': [
             skills.find((s) => s.name === 'Node.js'),
             skills.find((s) => s.name === 'Express.js'),
-            skills.find((s) => s.name === 'REST APIs'),
-            skills.find((s) => s.name === 'JWT Auth'),
+            skills.find((s) => s.name === 'REST API'),
         ].filter(Boolean),
 
         'Database & Tools': [
@@ -32,7 +30,6 @@ const Skills = () => {
             skills.find((s) => s.name === 'GitHub'),
             skills.find((s) => s.name === 'Vercel'),
             skills.find((s) => s.name === 'Postman'),
-            skills.find((s) => s.name === 'AWS'),
         ].filter(Boolean),
     };
 
@@ -105,9 +102,8 @@ const Skills = () => {
                         </h2>
 
                         <p className='max-w-2xl mx-auto text-white/60 text-lg'>
-                            A comprehensive overview of my technical skills,
-                            tools, and technologies I use to build modern web
-                            applications.
+                            Technologies and tools I use to build modern,
+                            responsive, and scalable web applications.
                         </p>
                     </div>
                 </FadeIn>
@@ -167,7 +163,7 @@ const Skills = () => {
                                                                     </h4>
 
                                                                     <p className='text-sm text-white/50'>
-                                                                        {skill.expriance}
+                                                                        {skill.experience}
                                                                     </p>
                                                                 </div>
                                                             </div>

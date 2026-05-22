@@ -217,7 +217,8 @@ const Contact = () => {
                                     Let's Connect
                                 </h3>
                                 <p className='text-white/60 leading-relaxed'>
-                                    I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out !
+                                    Let's work together on your next project.
+Feel free to contact me for freelance work, collaborations, or web development services. !
                                 </p>
                             </div>
 
