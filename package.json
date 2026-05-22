@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://fardin-rajpura.github.io/react-protfolio",
+  "homepage": "https://fardin-rajpura.github.io/React-Protfolio", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
