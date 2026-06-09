@@ -7,7 +7,7 @@ export const PERSONAL_INFO = {
     tagline:
         'I build modern, responsive, and high-performance web applications using React, Node.js, and MongoDB.',
 
-    resume: `${import.meta.env.BASE_URL}F S Raj.pdf`,
+    resume: `${import.meta.env.BASE_URL}Resume.pdf`,
 
     bio: [
         "I'm a passionate Full Stack Developer from Surat, Gujarat, focused on building modern web applications and responsive user interfaces.",
