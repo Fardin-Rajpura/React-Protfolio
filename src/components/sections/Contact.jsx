@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from "@emailjs/browser";
 import {
     Mail,
     MapPin,
@@ -56,23 +57,49 @@ const Contact = () => {
             return;
         }
 
-        setStatus({
-            type: 'success',
-            message: "Message sent successfully! I'll get back to you soon."
-        });
+        emailjs
+            .send(
+                'service_1lmhkap',
+                'template_hyfr2dx',
+                {
+                    name: formData.name,
+                    email: formData.email,
+                    title: 'Portfolio Contact',
+                    message: formData.message
+                },
+                '3X7U7tVCUH0U2Fjqo'
+            )
+            .then(() => {
 
-        setFormData({
-            name: '',
-            email: '',
-            message: ''
-        });
+                setStatus({
+                    type: 'success',
+                    message: "Message sent successfully! I'll get back to you soon."
+                });
 
-        setTimeout(() => {
-            setStatus({
-                type: '',
-                message: ''
+                setFormData({
+                    name: '',
+                    email: '',
+                    message: ''
+                });
+
+                setTimeout(() => {
+                    setStatus({
+                        type: '',
+                        message: ''
+                    });
+                }, 5000);
+
+            })
+            .catch((error) => {
+
+                console.log(error);
+
+                setStatus({
+                    type: 'error',
+                    message: 'Failed to send message'
+                });
+
             });
-        }, 5000);
     };
 
     const socialIcons = {
@@ -218,7 +245,7 @@ const Contact = () => {
                                 </h3>
                                 <p className='text-white/60 leading-relaxed'>
                                     Let's work together on your next project.
-Feel free to contact me for freelance work, collaborations, or web development services. !
+                                    Feel free to contact me for freelance work, collaborations, or web development services. !
                                 </p>
                             </div>
 
